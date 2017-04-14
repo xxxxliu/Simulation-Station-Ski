@@ -9,7 +9,9 @@
 #define SCR_STATION_HPP_
 
 
+class station{
 
+};
 
 
 #endif /* SCR_STATION_HPP_ */
