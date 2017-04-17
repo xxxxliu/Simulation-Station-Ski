@@ -11,9 +11,24 @@
 namespace std {
 
 class Station {
+	string mode;
+	int nombreDeSkieurs;
+	int dureeOuverture;
+	int tempsActuel;
+
 public:
 	Station();
 	virtual ~Station();
+	string getMode();
+	int getNombreDeSkieurs();
+	int getTempsActuel();
+	void setMode(string);
+	void setNombreDeSkieurs(int);
+	void setTempsActuel(int);
+	void modeUtilisateur();
+	void modeAdministrateur();
+	void lancerSimulation();
+	void deplacerSkieurs();
 };
 
 } /* namespace std */
