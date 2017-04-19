@@ -11,6 +11,7 @@
 namespace std {
 
 class Station {
+
 	string mode;
 	int nombreDeSkieurs;
 	int dureeOuverture;
@@ -19,12 +20,9 @@ class Station {
 public:
 	Station();
 	virtual ~Station();
-	string getMode();
-	int getNombreDeSkieurs();
-	int getTempsActuel();
-	void setMode(string);
-	void setNombreDeSkieurs(int);
-	void setTempsActuel(int);
+	string getMode() const;
+	int getNombreDeSkieurs() const;
+	int getTempsActuel() const;
 	void modeUtilisateur();
 	void modeAdministrateur();
 	void lancerSimulation();
