@@ -15,7 +15,7 @@ class Piste : public Arc {
 public:
 	int getNiveau();
 	void setNiveau(int);
-	Piste();
+	Piste(int);
 	virtual ~Piste();
 };
 

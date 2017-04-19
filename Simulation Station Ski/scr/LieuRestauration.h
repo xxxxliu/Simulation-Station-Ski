@@ -11,7 +11,7 @@
 class LieuRestauration {
 	int capaciteResto;
 public:
-	LieuRestauration();
+	LieuRestauration(int);
 	virtual ~LieuRestauration();
 	int getCapaciteResto();
 	void setCapaciteResto(int);

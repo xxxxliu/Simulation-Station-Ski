@@ -7,12 +7,21 @@
 
 #include "LieuRestauration.h"
 
-LieuRestauration::LieuRestauration() {
+LieuRestauration::LieuRestauration(int cap) {
 	// TODO Auto-generated constructor stub
-
+	capaciteResto=cap;
 }
 
 LieuRestauration::~LieuRestauration() {
 	// TODO Auto-generated destructor stub
 }
 
+int LieuRestauration::getCapaciteResto()
+{
+	return capaciteResto;
+}
+
+void LieuRestauration::setCapaciteResto(int cap)
+{
+	capaciteResto=cap;
+}
