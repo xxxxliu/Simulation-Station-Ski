@@ -7,9 +7,11 @@
 
 #include "RemonteMecanique.hpp"
 
-RemonteMecanique::RemonteMecanique() {
+RemonteMecanique::RemonteMecanique(int nivMinPiste, int freq, int nbPEnAttente) {
 	// TODO Auto-generated constructor stub
-
+	niveauMinPistes=nivMinPiste;
+	frequence=freq;
+	nbPersonneEnAttente=nbPEnAttente;
 }
 
 RemonteMecanique::~RemonteMecanique() {
