@@ -7,9 +7,9 @@
 
 #include "Telesiege.hpp"
 
-Telesiege::Telesiege() {
+Telesiege::Telesiege(int capSiege) {
 	// TODO Auto-generated constructor stub
-
+	capaciteSiege=capSiege;
 }
 
 Telesiege::~Telesiege() {
